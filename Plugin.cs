@@ -3,7 +3,7 @@ using BepInEx;
 
 namespace NoFecundityNerf
 {
-    [BepInPlugin("rzfury.noFecundityNerf", PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("rzfury.noFecundityNerf", "NoFecundityNerf", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
