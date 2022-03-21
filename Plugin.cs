@@ -10,7 +10,7 @@ namespace NoFecundityNerf
         {
             // Plugin startup logic
             Logger.LogInfo($" {PluginInfo.PLUGIN_NAME} is loaded!");
-            new Harmony(PluginInfo.PLUGIN_GUID).PatchAll();
+            new Harmony(PluginInfo.PLUGIN_GUID).PatchAll(typeof(Patch.NoFecundityNerf));
         }
     }
 }
